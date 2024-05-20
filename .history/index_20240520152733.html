@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>tienda de mascotas Landing Page</title>
+</head>
+<body>
+    <header>
+        <div class="banner">Obtenga entrega gratuita en pedidos superiores a $20</div>
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.jpg" alt="Logo de la empresa" class="logo">
+            </a>
+            
+            
+            <ul class="navigation-menu">
+                <li><a href="#">Productos</a>
+                    <ul class="subnav">
+                        <li class="card-med" id="sup-dog">
+                            <div class="card-image"><img src="https://img.icons8.com/?size=100&id=nOdzgnLuUCGn&format=png&color=000000"></div>
+                            <a href="#">
+                                <span>Perros</span>
+                                <span>Comprar todo <span class="material-symbols-outlined">
+                                        arrow_forward
+                                    </span></span>
+                            </a>
+                        </li>
+                        <li class="card-med" id="sup-cat">
+                            <div class="card-image"><img src="https://ouch-cdn2.icons8.com/US6gJ6fHUOJqruLB7KDe5zEa82iDSp7OdO-bv-aLtvU/rs:fit:368:310/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjU5/LzdmOWU1ZjU0LTMx/ZDQtNDgwNS1iM2E2/LWM3NzgyMTcyNzJh/NC5wbmc.png"></div>
+                            <a href="#">
+                                <span>Gato</span>
+                                <span>Comprar todo <span class="material-symbols-outlined">
+                                        arrow_forward
+                                    </span></span>
+                            </a>
+                        </li>
+                        <li class="card-med" id="sup-bird">
+                            <div class="card-image"><img src="https://ouch-cdn2.icons8.com/6OkSfKKP476ZKzGJoDlXfXuWzX-vjlDRotIVMTz3lmo/rs:fit:368:396/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzA1/LzRkNmI1YjIwLTQy/YWQtNDVlMC05ZDI5/LTA0MTkyMWZkNWE1/NS5wbmc.png"></div>
+                            <a href="#">
+                                <span>Pajaro</span>
+                                <span>Comprar todo <span class="material-symbols-outlined">
+                                        arrow_forward
+                                    </span></span>
+                            </a>
+                        </li>
+                        <li class="card-med" id="sup-fish">
+                            <div class="card-image"><img src="https://img.icons8.com/?size=100&id=RWO6AeNdKD0s&format=png&color=000000"></div>
+                            <a href="#">
+                                <span>Pez</span>
+                                <span>Comprar todo <span class="material-symbols-outlined">
+                                        arrow_forward
+                                    </span></span>
+                            </a>
+                        </li>
+                    </ul>
+                <li><a href="#">Servicios</a>
+                    <ul class="subnav">
+                        <li class="card-med" id="serv-groom">
+                            <div class="card-image"><img src="https://img.icons8.com/?size=100&id=EtSx5eGVIR2y&format=png&color=000000"></div>
+                            <a href="#">
+                                <span>Aseo</span>
+                                <span>Más información <span class="material-symbols-outlined">
+                                        arrow_forward
+                                    </span></span>
+                            </a>
+                        </li>
+                        <li class="card-med" id="serv-board">
+                            <div class="card-image"><img src="https://ouch-cdn2.icons8.com/F5Ea1suZtMYimKDkJr0CJLO_1bju6-bTyT1EuDKEg8s/rs:fit:368:254/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjcx/LzVjMzE4NWM0LWZh/NTMtNGQ1OS05ZTM2/LTZjYzBhNGU3ODg0/NC5wbmc.png"></div>
+                            <a href="#">
+                                <span>Alojamiento</span>
+                                <span>Más información<span class="material-symbols-outlined">
+                                        arrow_forward
+                                    </span></span>
+                            </a>
+                    </ul>
+                </li>
+                <li><a href="#locate">Ubicaciones & Horarios</a>
+                </li>
+                <li>
+                    <a href="#">Sobre nosotros</a>
+                </li>
+            </ul>
+            <div id="utility">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>¡Su tienda única para las necesidades de cada mascota!</h1>
+        <div class="btn-group">
+            <button class="btn-filled-dark"><span class="material-symbols-outlined">
+                    shopping_cart
+                </span>Comprar todos los productos</button>
+            <button class="btn-outline-dark btn-hover-color"><span class="material-symbols-outlined">
+                    calendar_month
+                </span>Reservar un servicio </button>
+        </div>
+    </section>
+    <section>
+        <h2>Shop by Pet</h2>
+
+        <ul class="shop-pets">
+            <li class="card-large card-light" id="sup-dog">
+                <div class="card-image"><img src="https://img.icons8.com/?size=100&id=7tuPVSyL8yYC&format=png&color=000000"></div>
+                <ul>
+                    Perro
+                    <li><a href="#">Comida & golosinas</a></li>
+                    <li><a href="#">Juguetes</a></li>
+                    <li><a href="#">Camas & Muebles</a></li>
+                    <li><a href="#">Suministros para el aire libre</a></li>
+                    <li><a href="#">Ropa</a></li>
+
+                    <button class="btn-outline-light">Comprar todo<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+            </li>
+
+            <li class="card-large card-dark" id="sup-cat">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/RjiKOF2gGKiIVnIMFi0O1a4aU7DoHfhbkXr2JbUYZ3A/rs:fit:368:313/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMzEy/LzliNDQ3MmVlLWZh/YjMtNDQwNy1iOWVh/LWMwOTdlYWNjNWE3/NS5wbmc.png"></div>
+                <ul>Gatos
+                    <li><a href="#">Comida & golosinas</a></li>
+                    <li><a href="#">Juguetes</a></li>
+                    <li><a href="#">Camas  & Muebles</a></li>
+                    <button class="btn-outline-dark">Comprar todo<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+
+            <li class="card-large card-dark" id="sup-bird">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/DF-XRInvbvWS9fQSpWc_SegC3meXZK8BmE-PjrdrF3Q/rs:fit:368:396/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzI3/LzQyYWIyNzliLWJj/ZDgtNGEyMC04MGRi/LTk3MzU4YWFmNTVk/OS5wbmc.png"> </div>
+                <ul>Pajaro
+                    <li><a href="#">Comida & golosinas</a></li>
+                    <li><a href="#">Juguetes</a></li>
+                    <li><a href="#">Muebles</a></li>
+                    <button class="btn-outline-dark">Comprar todo<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+            <li class="card-large card-light" id="sup-fish">
+                <div class="card-image"><img src="https://img.icons8.com/?size=100&id=OClCFhCarb8m&format=png&color=000000"></div>
+                <ul>
+                    Pez
+                    <li><a href="#">Comida</a></li>
+                    <li><a href="#">Acuarios</a></li>
+                    <li><a href="#">Rocas & decoraciones</a></li>
+                    <button class="btn-outline-light">Comprar todo<span class="material-symbols-outlined">
+                            arrow_forward
+                        </span></button>
+                </ul>
+
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Nuestros servicios</h2>
+
+        <ul class="services">
+            <li class="card-large card-dark card-wide" id="serv-groom">
+                <div class="card-image"><img src="https://img.icons8.com/?size=100&id=EtSx5eGVIR2y&format=png&color=000000"></div>
+                <ul>
+                    Cuidados del perro<span class="subtitle">Las transformaciones que mueven la cola son nuestra especialidad.</span>
+                    <li><a href="#">cuidado del pelaje</a><span>$10</span></li>
+                    <li><a href="#">cuidado de uñas</a><span>$12</span></li>
+                    <li><a href="#">Día de spa de lujo para perros</a><span>$25</span></li>
+                    <button class="btn-filled-dark"><span class="material-symbols-outlined">
+                            calendar_month
+                        </span>Reservar ahora</button>
+
+                </ul>
+
+
+            </li>
+            <li class="card-large card-dark card-wide" id="serv-board">
+                <div class="card-image"><img src="https://ouch-cdn2.icons8.com/F5Ea1suZtMYimKDkJr0CJLO_1bju6-bTyT1EuDKEg8s/rs:fit:368:254/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjcx/LzVjMzE4NWM0LWZh/NTMtNGQ1OS05ZTM2/LTZjYzBhNGU3ODg0/NC5wbmc.png"></div>
+                <ul>
+                    Alojamiento para perros<span class="subtitle">Donde la diversión y el cuidado nunca se toman un día libre.</span>
+                    <li><a href="#">Guardería para perros</a><span>$30</span></li>
+                    <li><a href="#">Alojamiento de corta duración</a><span>$25</span></li>
+                    <button class="btn-filled-dark"><span class="material-symbols-outlined">
+                            calendar_month
+                        </span>Reservar ahora</button>
+                </ul>
+
+            </li>
+        </ul>
+    </section>
+
+    <section id="locate">
+
+        <div>
+            <h2>Location & Hours</h2>
+            <p>Our knowledgeable and friendly staff is always ready to assist you in making the best choices for your furry, feathered, or finned friends.</p>
+            <div class="btn-group">
+                <button class="btn-filled-dark"><span class="material-symbols-outlined">
+pin_drop
+</span>Find a Store</button>
+                <button class="btn-outline-dark btn-hover-color"><span class="material-symbols-outlined">
+contact_support
+</span> Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <ul>
+            Products
+            <li><a href="#">Food & Treats</a></li>
+            <li><a href="#">Toys</a></li>
+            <li><a href="#">Beds & Furniture</a></li>
+            <li><a href="#">Outdoor Supplies</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Aquariums</a></li>
+            <li><a href="#">Rocks & Decorations</a></li>
+        </ul>
+
+        <ul>
+            Shop by Pet
+            <li><a href="#">Dogs</a></li>
+            <li><a href="#">Cats</a></li>
+            <li><a href="#">Birds</a></li>
+            <li><a href="#">Fish</a></li>
+        </ul>
+
+        <ul>
+            Our Services
+            <li><a href="#">Grooming</a></li>
+            <li><a href="#">Boarding</a></li>
+        </ul>
+        <ul>
+            Our Company
+            <li><a href="#">Locations & Hours</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
